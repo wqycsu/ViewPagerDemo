@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#58eeeeee">
+
+    <Button
+        android:id="@+id/close_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Close"/>
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:id="@+id/viewpager_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:clipChildren="false">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="200dp"
+            android:layout_height="280dp"
+            android:clipChildren="false"
+            android:layout_centerInParent="true">
+        </android.support.v4.view.ViewPager>
+    </RelativeLayout>
+
+</RelativeLayout>
